@@ -9,6 +9,7 @@ public class Main {
 
         for (int i = 0; i < numbers.length; i++) {
             newNumbers[i] = numbers[numbers.length - 1 - i];
+
         }
 
         System.out.println(Arrays.toString(newNumbers));
